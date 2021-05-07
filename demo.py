@@ -16,4 +16,4 @@ def create_connection(host_name, user_name, user_password, db_name):
 
     return connection
 
-connection = create_connection("178.62.208.54", "testgpbhack", "4wetSekud$dfe24", "testgpbhack")
+connection = create_connection("", "", "", "")
