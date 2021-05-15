@@ -6,21 +6,17 @@
 
  <meta name="yandex-verification" content="b589603625c1b4cb" />
 
- <title>encm</title>
+ <title>encm1</title>
 
- <link rel="stylesheet" href="index.css" type="text/css">
+ <link rel="stylesheet" href="style4.css" type="text/css">
 
  <link rel="shortcut icon" href="">
-
- <link rel="alternate" href="" hreflang="en">
- <link rel="alternate" href="" hreflang="ru">
 
 </head>
 <body>
 
-<div class="box">
- <p><span style="font: 300% pragmatica,Helvetica,Arial,sans-serif; color: #000;">test</span></p>
- <p><span style="font: 100% pragmatica-light,Helvetica,Arial,sans-serif; color: #77808b;">test</span></p>
+<div class="box1">
+ <div class="box2">start</div>
 </div>
 
 <script></script>  
@@ -33,8 +29,7 @@
 
 /*
  *
- * Версия от 03.06.2017
- *
+ * Версия от 08.05.2021
  *
  */
 
