@@ -17,6 +17,7 @@ def create_app():
             diagramName = request.form['diagramName']
             get_settings()
             result = CreateInputFile(diagramName)
+            find_subdiagram(data_file)
         return result
 
 
@@ -49,13 +50,12 @@ my_process = []
 
 
 def CreateInputFile(diagramName)
-    my_file = open("BabyFile.txt", "w+")
+    my_file = open(AppAdress+"inputFile.xml", "w+")
     my_file.write('''<MAExtractRequest>
     <CampaignDO detail="ALL">
-        <Name operator="=">'''diagramName'''</Name>
+        <Name operator="=">'''+diagramName+'''</Name>
         <CampaignType operator="=">decisionCampaign</CampaignType>
-    </CampaignDO>
-</MAExtractRequest> ''')
+    </CampaignDO></MAExtractRequest> ''')
     my_file.close()
 
 
